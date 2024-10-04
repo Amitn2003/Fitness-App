@@ -138,7 +138,7 @@ import React, { useState, useEffect } from 'react';
 const staticWorkouts = [
   {
     name: 'Squats',
-    image: 'https://plus.unsplash.com/premium_photo-1661307686339-6c4cb1f8a11a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://plus.unsplash.com/premium_photo-1661906824628-3ac1f6c4ce1c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     targetMuscle: 'Legs, Glutes',
     sets: 3,
     repsRange: '10-15',
@@ -146,7 +146,7 @@ const staticWorkouts = [
   },
   {
     name: 'Lunges',
-    image: 'https://plus.unsplash.com/premium_photo-1673015345694-d195b04a5f85?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.unsplash.com/photo-1650116385006-2a82a7b9941b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     targetMuscle: 'Legs, Glutes',
     sets: 3,
     repsRange: '8-12 each leg',
@@ -154,7 +154,7 @@ const staticWorkouts = [
   },
   {
     name: 'Plank',
-    image: 'https://plus.unsplash.com/premium_photo-1583295744875-0632a5c4d159?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://plus.unsplash.com/premium_photo-1672046218170-f709030b666a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     targetMuscle: 'Core',
     sets: 3,
     repsRange: '30-60 seconds',
@@ -162,7 +162,7 @@ const staticWorkouts = [
   },
   {
     name: 'Deadlifts',
-    image: 'https://plus.unsplash.com/premium_photo-1632056124798-1b40a35f143f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://plus.unsplash.com/premium_photo-1664910033852-f1639b57cd9b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     targetMuscle: 'Back, Legs',
     sets: 3,
     repsRange: '8-10',
@@ -170,7 +170,7 @@ const staticWorkouts = [
   },
   {
     name: 'Burpees',
-    image: 'https://plus.unsplash.com/premium_photo-1632210322258-7648eb73c49b?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.healthshots.com/healthshots/en/uploads/2023/03/16013822/Burpees-770x436.jpg',
     targetMuscle: 'Full Body',
     sets: 3,
     repsRange: '10-15',
@@ -178,7 +178,7 @@ const staticWorkouts = [
   },
   {
     name: 'Bicep Curls',
-    image: 'https://plus.unsplash.com/premium_photo-1610482220124-8371cf43f74c?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.unsplash.com/photo-1681040517791-aba993f05b2b?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     targetMuscle: 'Biceps',
     sets: 3,
     repsRange: '10-12',
@@ -186,7 +186,7 @@ const staticWorkouts = [
   },
   {
     name: 'Tricep Dips',
-    image: 'https://plus.unsplash.com/premium_photo-1588381878661-b4a6ff5bcff9?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.pexels.com/photos/4803892/pexels-photo-4803892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     targetMuscle: 'Triceps',
     sets: 3,
     repsRange: '8-12',
@@ -194,7 +194,7 @@ const staticWorkouts = [
   },
   {
     name: 'Shoulder Press',
-    image: 'https://plus.unsplash.com/premium_photo-1599060679597-75fd0cd48c79?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.pexels.com/photos/7289370/pexels-photo-7289370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     targetMuscle: 'Shoulders',
     sets: 3,
     repsRange: '8-10',
@@ -202,7 +202,7 @@ const staticWorkouts = [
   },
   {
     name: 'Mountain Climbers',
-    image: 'https://plus.unsplash.com/premium_photo-1563801559054-8c5c42bfc67e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     targetMuscle: 'Core, Legs',
     sets: 3,
     repsRange: '15-20',
@@ -210,7 +210,7 @@ const staticWorkouts = [
   },
   {
     name: 'Jumping Jacks',
-    image: 'https://plus.unsplash.com/premium_photo-1633111220298-fd65f5403f2d?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.pexels.com/photos/4853080/pexels-photo-4853080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     targetMuscle: 'Full Body',
     sets: 3,
     repsRange: '15-20',
@@ -218,7 +218,7 @@ const staticWorkouts = [
   },
   {
     name: 'Chest Press',
-    image: 'https://plus.unsplash.com/premium_photo-1601600181274-4a0aa3d87290?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.pexels.com/photos/7289250/pexels-photo-7289250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     targetMuscle: 'Chest',
     sets: 3,
     repsRange: '8-10',
@@ -226,7 +226,7 @@ const staticWorkouts = [
   },
   {
     name: 'Leg Raises',
-    image: 'https://plus.unsplash.com/premium_photo-1618421851457-36f1280e0d59?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.pexels.com/photos/4803714/pexels-photo-4803714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     targetMuscle: 'Core',
     sets: 3,
     repsRange: '10-15',
